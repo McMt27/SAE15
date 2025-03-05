@@ -1,0 +1,263 @@
+
+
+
+
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-image: url("background.jpeg");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    overflow: hidden;
+
+}
+
+
+
+.pokedex {
+
+    background-color: #ff3b3b;
+
+    border: 5px solid #000;
+
+    border-radius: 15px;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+
+    width: 400px; 
+
+    height: auto; 
+
+    position: relative;
+
+    padding: 20px;
+
+    overflow: hidden;
+
+}
+
+
+
+/* Top Circle */
+
+.cercle {
+
+    width: 50px;
+
+    height: 50px;
+
+    background-color: #bde0fe;
+
+    border: 3px solid #fff;
+
+    border-radius: 50%;
+
+    position: absolute;
+
+    top: 20px;
+
+    left: 20px;
+
+    box-shadow: 0 0 15px #00e7ff;
+
+}
+
+
+
+/* Small Lights */
+
+.lumière {
+
+    display: flex;
+
+    gap: 10px;
+
+    position: absolute;
+
+    top: 25px;
+
+    right: 20px;
+
+}
+
+
+
+.led {
+
+    width: 15px;
+
+    height: 15px;
+
+    background-color: #00ff00;
+
+    border-radius: 50%;
+
+    border: 2px solid #fff;
+
+}
+
+
+
+.led.rouge {
+
+    background-color: #ff0000;
+
+}
+
+
+
+.led.jaune {
+
+    background-color: #ffff00;
+
+}
+
+
+
+.pokemon {
+
+    background-image: url("background2.webp");
+
+    background-size: cover;
+
+    border: 4px solid #333;
+
+    width: 90%;
+
+    height: 200px;
+
+    margin: 100px auto 20px;
+
+    border-radius: 5px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    position: relative;
+
+}
+
+
+
+.pokemon img {
+
+    width: 200px;
+
+    height: 200px;
+
+}
+
+
+
+.butons {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin: 10px 0;
+
+}
+
+
+
+.buton {
+
+    width: 30px;
+
+    height: 10px;
+
+    border-radius: 5px;
+
+}
+
+
+
+.buton.jaune {
+
+    background-color: #ffff00;
+
+}
+
+
+
+.buton.bleu {
+
+    background-color: #0000ff;
+
+}
+
+
+
+.info {
+
+    background-color: #8bc34a;
+
+    border: 2px solid #333;
+
+    border-radius: 10px;
+
+    width: 90%;
+
+    margin: 10px auto;
+
+    padding: 15px; 
+
+    text-align: left; 
+
+    font-size: 16px; 
+
+    color: #000;
+
+    overflow-y: auto; 
+
+    max-height: 300px; 
+
+}
+
+
+
+@media (max-height: 600px) {
+
+    body {
+
+        height: auto;
+
+        overflow-y: auto;
+
+        align-items: flex-start;
+
+    }
+
+
+
+    .pokedex {
+
+        margin: 20px auto;
+
+    }
+
+}
+
+
+
+    
